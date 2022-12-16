@@ -1,0 +1,428 @@
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+
+	font-family: 'Montserrat', sans-serif;;
+	font-size: 16px;
+	font-weight: 400;
+	color: #3d2514;
+}
+/*common end*/
+/*header start*/
+header{
+	padding: 25px 0;
+	/*border: 1px solid red;*/
+}
+.container{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 90%;
+	/*border: 1px solid;*/
+}
+.logo{
+	width: 20%;
+	float: left;
+	/*border: 1px solid red;*/
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 60%;
+	float: right;
+	/*border: 1px solid red;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	color: #3d2514;
+	text-decoration: none;
+	padding: 0 25px;
+	display: inline-block;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	text-decoration: underline;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../burgerimages/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 30px 0 70px;
+}
+.btext{
+	margin-top: 140px;
+	width: 47%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.btext p{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 23px;
+	/*border: 3px dashed #3d2514;*/
+	padding: 5px 10px;
+	display: inline-block;
+	margin: 0;
+	line-height: 30px;
+}
+.btext h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 114px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 30px 0 20px;
+	line-height: 80px;
+}
+.btext h2{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 56px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 0;
+	line-height: 55px;
+}
+.bimg{
+	width: 50%;
+	/*border: 1px solid red;*/
+	float: right;
+	position: relative;
+}
+.bimg img{
+	width: 100%;
+}
+.bwrapper{
+	width: 180px;
+	height: 180px;
+	background-color: #bf2222;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+}
+.btag{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 130px;
+	height: 130px;
+	border: 3px dashed white;
+	border-radius: 50%;
+
+	font-family: 'Bebas Neue', cursive;
+	color: white;
+	line-height: 40px;
+}
+.b1{
+	font-size: 60px;
+}
+.b2{
+	font-size: 30px;
+}
+.b3{
+	font-size: 40px;
+	letter-spacing: 5px;
+}
+
+/*banner end*/
+/*feature start*/
+.feature_burger{
+	padding-top: 90px;
+	padding-bottom: 60px;
+	/*border: 1px solid red;*/
+}
+.fwrapper{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+.f_burger1{
+	width: 48.5%;
+	height: 420px;
+	float: left;
+	/*border: 1px solid blue;*/
+	background-image: url(../burgerimages/f_burger1.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.f_1{
+	padding: 30px 0;
+}
+.f_1 p{
+	margin: 0;
+	padding: 0 25px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 23px;
+	font-weight: 400;
+	color: white;
+	line-height: 30px;
+}
+.f_1 h2{
+	margin: 0;
+	padding: 0 25px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 39px;
+	font-weight: 400;
+	color: white;
+	line-height: 40px;
+}
+.f_burger2{
+	width: 48.5%;
+	height: 420px;
+	float: right;
+	/*border: 1px solid blue;*/
+}
+.f_2{
+	margin-bottom: 30px;
+	width: 100%;
+	height: 195px;
+	/*border: 1px solid green;*/
+	background-image: url(../burgerimages/f_burger2.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.f_2 p{
+	margin: 0;
+	padding: 0 25px;
+	ont-family: 'Bebas Neue', cursive;
+	font-size: 23px;
+	font-weight: 400;
+	color: white;
+	line-height: 30px;
+}
+.f_2 h2{
+	margin: 0;
+	padding: 0 25px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 39px;
+	font-weight: 400;
+	color: white;
+	line-height: 40px;
+}
+.f_3{
+	width: 100%;
+	height: 195px;
+	/*border: 1px solid green;*/
+	background-image: url(../burgerimages/f_burger3.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.f_3 p{
+	margin: 0;
+	padding: 0 25px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 23px;
+	font-weight: 400;
+	color: white;
+	line-height: 30px;
+}
+.f_3 h2{
+	margin: 0;
+	padding: 0 25px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 39px;
+	font-weight: 400;
+	color: white;
+	line-height: 40px;
+}
+/*feature end*/
+/*burger start*/
+.burger{
+	padding-bottom: 70px;
+}
+.container2{
+	/*border: 1px solid*/;
+	width: 85%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.row1{
+	text-align: center;
+}
+.b_h2{
+	margin: 0;
+}
+.c_h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 50px;
+	font-weight: 400;
+
+	margin: 10px 0;
+}
+.c_p{
+	margin: 0;
+}
+.s_burger{
+	float: left;
+	width: 29%;
+	/*border: 1px solid	red;*/
+	text-align: center;
+	margin-right: 6%;
+}
+.s_burger:last-child{
+	margin-right: 0px;
+}
+.s_img{}
+.s_img img{
+	width: 100%;
+}
+.s_burger h2{
+	margin-bottom: 0;
+	margin-top: 25px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 37px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.s_burger p{
+	padding-bottom: 35px
+}
+.s_burger a{
+	padding: 15px 50px;
+	font-family: 'Alfa Slab One', cursive;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	background-color: #bf2222;
+}
+
+/*burger end*/
+/*feature box start*/
+.f_box{
+	/*border: 1px solid red*/;
+}
+.wrapper_feature{
+	margin: 0 auto;
+  padding: 20px;
+  width: 90%;
+  box-shadow: 14px 14px 18px #00000059;
+  overflow: hidden;
+}
+.feature_text{
+	padding: 37px 0 0 50px;
+  width: 504px;
+  float: left
+}
+.feature_text h3{}
+.feature_text h1{}
+.feature_text p{}
+.feature_img{
+	width: 50%;
+  float: right;
+  cursor: pointer;
+}
+.feature_img img{
+	width: 100%;
+}
+/*feature box end*/
+/*contact form start*/
+.contact_form{
+	padding: 90px 0;
+	/*border: 1px solid blue;*/
+}
+.wrapper_contactimg{
+	/*border: 1px solid purple;*/
+}
+.c_img{
+	overflow: hidden;
+	position: relative;
+}
+.c1{
+	float: left;
+}
+.c2{
+	position: absolute;
+	right: 0px;
+	bottom: -126px;
+	float: right;
+}
+.con_form{
+	width: 30%;
+	height: 300px;
+	position: absolute;
+	left: 400px;
+	top: 200px;
+}
+/*contact form end*/
+/* footer start */
+footer{
+  padding-bottom: 20px;
+}
+.footer_container{
+  margin: 0 auto;
+  width: 92%;
+  height: 525px;
+  overflow: hidden;
+  background-image: url(../burgerimages/footer.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.footer_left{
+  margin-left: 37px;
+  width: 48%;
+  float: left;
+}
+.footer_left p{
+  width: 86%;
+  line-height: 25px;
+  color: white;
+}
+.f_logo{
+  margin-top: 85px;
+  margin-bottom: 47px;
+  width: 60%;
+}
+.f_logo img{
+  width: 100%;
+}
+.f_c_n{
+  font-family: 'Bebas Neue', cursive;
+  margin-top: 22%;
+}
+.footer_right{
+  width: 45%;
+  float: right;
+}
+table{
+  margin-top: 38.5%;
+  margin-left: 30%;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+table p{
+  margin: 7px 5px;
+}
+table img{
+  margin-top: 5px;
+  margin-right: 20px;
+  width: 50%;
+}
+.footer_link{
+  margin-top: 23%;
+  margin-right: 25px;
+  float: right;
+}
+.footer_link a{
+  margin-right: 8px;
+}
+/* footer end */
